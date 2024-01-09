@@ -1,4 +1,4 @@
-import { Product } from './Product.jsx';
+import Product from './Product';
 import { PRODUCTS } from '../../products.js';
 
 const Shop = () => {
