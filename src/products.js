@@ -3,7 +3,7 @@ import monitor from './assets/dell-monitor.jpg';
 import desktop from './assets/desktop.jpg';
 import fingerboard from './assets/fingerboard.jpg';
 import gloves from './assets/gloves.jpg';
-import greenBeanie from './assets/green-beanie.jpg';
+import greenBeanie from './assets/Green-Beanie.jpg';
 import supreme from './assets/supreme-hat.jpg';
 import iphone from './assets/iphone-15.jpg';
 
