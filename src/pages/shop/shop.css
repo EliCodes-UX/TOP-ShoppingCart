@@ -11,6 +11,7 @@
   place-items: center;
 }
 .product {
+  border: 1px solid black;
   border-radius: 15px;
   width: 300px;
   height: 350px;
@@ -18,9 +19,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 10px;
 }
 .product img {
-  width: 400px;
+  width: 200px;
 }
 .product .description {
   text-align: center;
