@@ -7,7 +7,7 @@
   width: 100%;
   height: auto;
   display: grid;
-  grid-template-columns: 1fr, 1fr, 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   place-items: center;
 }
 .product {
@@ -31,7 +31,7 @@
   transition: 0.3s ease-in;
   cursor: pointer;
 }
-.addToCartBtn {
+.addToBtn {
   background-color: transparent;
   border: 2px solid black;
   min-width: 100px;
@@ -40,7 +40,7 @@
   padding-bottom: 5px;
   border-radius: 15px;
 }
-.addToCartBtn:hover {
+.addToBtn:hover {
   background-color: black;
   color: white;
   cursor: pointer;
