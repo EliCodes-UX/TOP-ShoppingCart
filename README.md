@@ -1,8 +1,6 @@
-# React + Vite
+using # React + Vite i will demo a shopping cart app where the user can select a shopping experience and have a selected item from the shop added to the shopping cart for checkout
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+@vitejs/plugin-react uses Babel for Fast Refresh
+@vitejs/plugin-react-swc uses SWC for Fast Refresh
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+using TOP curriculum in the react pathway
