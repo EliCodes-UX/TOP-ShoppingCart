@@ -1,10 +1,12 @@
 // eslint-disable-next-line no-unused-vars
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { ShoppingCart } from 'phosphor-react';
+import ShopContext from '../context/shop-context';
 import './Navbar.css';
 
 const Navbar = () => {
+  useContext(ShopContext);
   return (
     <div className='navBar'>
       <div className='links'>
@@ -13,6 +15,7 @@ const Navbar = () => {
         <Link to='/cart'>
           <ShoppingCart size={32} />
         </Link>
+        <p>numberOfItems()</p>
       </div>
     </div>
   );

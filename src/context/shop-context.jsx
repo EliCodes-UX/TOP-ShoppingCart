@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { createContext, useState } from 'react';
 import { PRODUCTS } from '../products';
 
@@ -13,6 +14,16 @@ const getDefaultCart = () => {
 
 export const ShopContextProvider = props => {
   const [cartItems, setCartItems] = useState(getDefaultCart());
+
+  const numberOfItems = () => {
+    let numOfItems = 0;
+    for (const item in cartItems) {
+      if (cartItems[item] > 0) {
+        numOfItems += cartItems[item];
+      }
+    }
+    return numOfItems;
+  };
 
   const getTotalAmount = () => {
     let totalAmount = 0;
@@ -43,6 +54,7 @@ export const ShopContextProvider = props => {
     removeToCart,
     updateCartItemCount,
     getTotalAmount,
+    numberOfItems,
   };
   console.log(cartItems);
   return (
