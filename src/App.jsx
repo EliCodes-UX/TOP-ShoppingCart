@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './componets/Navbar';
+import Home from './pages/home/Home.jsx';
 import Cart from './pages/cart/Cart.jsx';
 import Shop from './pages/shop/Shop.jsx';
 import { ShopContextProvider } from './context/shop-context.jsx';
@@ -12,7 +13,8 @@ function App() {
           <Router>
             <Navbar />
             <Routes>
-              <Route path='/' element={<Shop />} />
+              <Route path='/' element={<Home />} />
+              <Route path='/shop' element={<Shop />} />
               <Route path='/cart' element={<Cart />} />
             </Routes>
           </Router>
