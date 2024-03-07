@@ -4,3 +4,4 @@ using # React + Vite i will demo a shopping cart app where the user can select a
 @vitejs/plugin-react-swc uses SWC for Fast Refresh
 
 using TOP curriculum in the react pathway
+you can visit the live page at: https://topshoppingcart.netlify.app/
